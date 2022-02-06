@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    flex-wrap: wrap;
+    max-width: 260px;
+    gap: 5px;
+}
+
+.zero {
+    width: 125px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+}
+
+#display {
+    width: 260px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.title {
+    font-size: 30px;;
+}
